@@ -54,3 +54,46 @@
 }
 
 /* ========== Css variables ========== */
+
+/* ========== Common styles ========== */
+
+body {}
+
+a{
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ========== Common styles ========== */
+
+/* ========== Page-header ========== */
+/* ========== Page-header ========== */
+
+/* ========== Hero section ==========  */
+/* ========== Hero section ==========  */
+
+/* ========== About section ==========  */
+/* ========== About section ==========  */
+
+/* ========== Benefits section ==========  */
+/* ========== Benefits section ==========  */
+
+/* ========== Procedure section ==========  */
+/* ========== Procedure section ==========  */
+
+/* ========== Contact section ==========  */
+/* ========== Contact section ==========  */
+
+/* ========== Page-footer ========== */
+/* ========== Page-footer ========== */
