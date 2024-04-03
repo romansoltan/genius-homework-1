@@ -56,44 +56,123 @@
 /* ========== Css variables ========== */
 
 /* ========== Common styles ========== */
-
-body {}
-
-a{
+body {
+  color: var(--primary-c-dark);
+  background-color: var(--primary-c-light);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+a {
   text-decoration: none;
 }
-
 address {
   font-style: normal;
 }
-
 button {
   cursor: pointer;
 }
-
 ul {
   list-style-type: none;
 }
-
+.section-title {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+.accent-color {
+  color: var(--accent-c);
+}
 /* ========== Common styles ========== */
 
 /* ========== Page-header ========== */
+.menu-link {
+  color: var(--primary-c-dark);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-c);
+  font-weight: 700;
+}
 /* ========== Page-header ========== */
 
 /* ========== Hero section ==========  */
+.hero-title {
+  font-family: "Play", sans-serif;
+  font-size: 140px;
+  line-height: 0.81;
+  text-transform: capitalize;
+  color: var(--accent-c);
+}
+.order-call-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--primary-c-dark);
+  border: 2px solid var(--accent-c);
+  border-radius: 32px;
+  padding: 16px 32px;
+}
+.order-call-btn:hover,
+.order-call-btn:focus {
+  color: var(--primary-c-light);
+  background-color: var(--accent-c);
+}
+.hero-text {
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--secondary-c-light);
+}
 /* ========== Hero section ==========  */
 
 /* ========== About section ==========  */
+.about-section .accent-color {
+  text-transform: capitalize;
+}
+.about-text {
+  font-size: 22px;
+  line-height: 1.73;
+}
+.about-text-accent {
+  font-weight: 600;
+  text-transform: capitalize;
+}
 /* ========== About section ==========  */
 
 /* ========== Benefits section ==========  */
+.benefits-list-text {
+  line-height: 1.33;
+  text-align: center;
+  color: var(--secondary-c-dark);
+}
 /* ========== Benefits section ==========  */
 
 /* ========== Procedure section ==========  */
+
+.procedure-list-title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--primary-c-light);
+}
 /* ========== Procedure section ==========  */
 
 /* ========== Contact section ==========  */
 /* ========== Contact section ==========  */
 
 /* ========== Page-footer ========== */
+.page-footer {
+  background-color: var(--primary-c-dark);
+}
+.menu-link.link,
+.address-link {
+  color: var(--primary-c-light);
+  font-size: 16px;
+}
+.address-copyright {
+  font-size: 13px;
+  color: var(--secondary-c-grey);
+}
 /* ========== Page-footer ========== */
